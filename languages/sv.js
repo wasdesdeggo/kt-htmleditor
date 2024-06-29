@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['sv-SE'] = {
+	kteditor.locale['sv-SE'] = {
 		'Bold': 'Fet',
 		'Italic': 'Kursiv',
 		'Underline': 'Understruken',
