@@ -4,7 +4,7 @@
  *
  * Copyright (C) 2016, 
  *
- * SCEditor is licensed under the MIT license:
+ *  licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
  *
  * 
@@ -12,7 +12,7 @@
 (function (document, sceditor) {
 	'use strict';
 
-	var dom = sceditor.dom;
+	var dom = kteditor.dom;
 
 	/*
 		(^|\s)					Start of line or space
@@ -83,7 +83,7 @@
 		}
 	};
 
-	sceditor.plugins.autoyoutube = function () {
+	kteditor.plugins.autoyoutube = function () {
 		this.signalPasteRaw = function (data) {
 			// TODO: Make this tag configurable.
 			// Skip code tags
@@ -103,4 +103,4 @@
 			}
 		};
 	};
-})(document, sceditor);
+})(document, kteditor);
