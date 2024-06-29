@@ -5,7 +5,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['fi'] = {
+	kteditor.locale['fi'] = {
 
 		'Bold': 'Lihavoitu',
 		'Italic': 'Kursivoitu',
