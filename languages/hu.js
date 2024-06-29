@@ -6,7 +6,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['hu'] = {
+	kteditor.locale['hu'] = {
 		'Bold': 'Félkövér',
 		'Italic': 'Dőlt',
 		'Underline': 'Aláhúzva',
