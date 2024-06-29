@@ -1,7 +1,7 @@
-(function (sceditor) {
+(function (kteditor) {
 	'use strict';
 
-	sceditor.plugins.undo = function () {
+	kteditor.plugins.undo = function () {
 		var base = this;
 		var sourceEditor;
 		var editor;
@@ -369,4 +369,4 @@
 			return node;
 		}
 	};
-}(sceditor));
+}(kteditor));
