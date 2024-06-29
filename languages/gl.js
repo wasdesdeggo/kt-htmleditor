@@ -5,7 +5,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['gl'] = {
+	kteditor.locale['gl'] = {
 		'Bold': 'Negrita',
 		'Italic': 'Cursiva',
 		'Underline': 'Subrayar',
