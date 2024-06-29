@@ -4,7 +4,7 @@
  */
 (function () {
 	'use strict';
-	sceditor.locale['tr'] = {
+	kteditor.locale['tr'] = {
 		'Bold': 'Kalın',
 		'Italic': 'İtalik',
 		'Underline': 'Altı çizgili',
