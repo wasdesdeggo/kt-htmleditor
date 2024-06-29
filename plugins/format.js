@@ -10,10 +10,10 @@
  *  Paragraph Formatting Plugin
  * 
  */
-(function (sceditor) {
+(function (kteditor) {
 	'use strict';
 
-	sceditor.plugins.format = function () {
+	kteditor.plugins.format = function () {
 		var base = this;
 
 		/**
@@ -102,7 +102,7 @@
 			var	editor   = this,
 				content = document.createElement('div');
 
-			sceditor.utils.each(tags, function (tag, val) {
+			kteditor.utils.each(tags, function (tag, val) {
 				var link = document.createElement('a');
 				link.className = 'sceditor-option';
 				link.textContent = val.name || val;
@@ -124,4 +124,4 @@
 			editor.createDropDown(caller, 'format', content);
 		};
 	};
-})(sceditor);
+})(kteditor);
