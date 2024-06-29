@@ -7,17 +7,17 @@
  *
  * Should only be used to ease migrating.
  */
-(function (sceditor, $) {
+(function (kteditor, $) {
 	'use strict';
 
-	var plugins = sceditor.plugins;
+	var plugins = kteditor.plugins;
 
 	/**
 	 * Patches a method to wrap and DOM nodes in a jQuery object
 	 * @private
 	 */
 	function patchMethodArguments(fn) {
-		if (fn._scePatched) {
+		if (fn._ktePatched) {
 			return fn;
 		}
 
@@ -37,7 +37,7 @@
 			return fn.apply(this, args);
 		};
 
-		patch._scePatched = true;
+		patch._ktePatched = true;
 		return patch;
 	}
 
@@ -46,7 +46,7 @@
 	 * @private
 	 */
 	function patchMethodReturn(fn) {
-		if (fn._scePatched) {
+		if (fn._ktePatched) {
 			return fn;
 		}
 
@@ -54,11 +54,11 @@
 			return $(fn.apply(this, arguments));
 		};
 
-		patch._scePatched = true;
+		patch._ktePatched = true;
 		return patch;
 	}
 
-	var oldSet = sceditor.command.set;
+	var oldSet = kteditor.command.set;
 	sceditor.command.set = function (name, cmd) {
 		if (cmd && typeof cmd.exec === 'function') {
 			cmd.exec = patchMethodArguments(cmd.exec);
@@ -82,8 +82,8 @@
 		};
 	};
 
-	var oldCreate = sceditor.create;
-	sceditor.create = function (textarea, options) {
+	var oldCreate = kteditor.create;
+	kteditor.create = function (textarea, options) {
 		oldCreate.call(this, textarea, options);
 
 		if (textarea && textarea._sceditor) {
@@ -94,4 +94,4 @@
 				patchMethodReturn(editor.getContentAreaContainer);
 		}
 	};
-}(sceditor, jQuery));
+}(kteditor, jQuery));
