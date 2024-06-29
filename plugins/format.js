@@ -1,14 +1,14 @@
 /**
- * SCEditor Paragraph Formatting Plugin
- * http://www.sceditor.com/
+ * Paragraph Formatting Plugin
+ * 
  *
- * Copyright (C) 2011-2013, Sam Clarke (samclarke.com)
+ * Copyright (C) 2011-2013,
  *
- * SCEditor is licensed under the MIT license:
+ * licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
  *
- * @fileoverview SCEditor Paragraph Formatting Plugin
- * @author Sam Clarke
+ *  Paragraph Formatting Plugin
+ * 
  */
 (function (sceditor) {
 	'use strict';
