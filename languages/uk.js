@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['uk'] = {
+	kteditor.locale['uk'] = {
 		'Bold': 'Жирний',
 		'Italic': 'Курсив',
 		'Underline': 'Підкреслений',
