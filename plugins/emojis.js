@@ -11,7 +11,7 @@
  * 
  */
 /*global EmojiMart*/
-(function (sceditor) {
+(function (kteditor) {
 	'use strict';
 
 	sceditor.plugins.emojis = function () {
@@ -83,4 +83,4 @@
 			};
 		};
 	};
-})(sceditor);
+})(kteditor);
