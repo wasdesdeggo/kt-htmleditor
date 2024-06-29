@@ -1,13 +1,13 @@
 /**
- * SCEditor Auto Youtube Plugin
- * http://www.sceditor.com/
+ * Auto Youtube Plugin
+ * 
  *
- * Copyright (C) 2016, Sam Clarke (samclarke.com)
+ * Copyright (C) 2016, 
  *
  * SCEditor is licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
  *
- * @author Sam Clarke
+ * 
  */
 (function (document, sceditor) {
 	'use strict';
