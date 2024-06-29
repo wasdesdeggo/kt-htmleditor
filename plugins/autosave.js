@@ -4,15 +4,15 @@
  *
  * Copyright (C) 2017,
  *
- * SCEditor is licensed under the MIT license:
+ * licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
  *
  * 
  */
-(function (sceditor) {
+(function (kteditor) {
 	'use strict';
 
-	var defaultKey = 'sce-autodraft-' + location.pathname + location.search;
+	var defaultKey = 'kt-autodraft-' + location.pathname + location.search;
 
 	function clear(key) {
 		localStorage.removeItem(key || defaultKey);
@@ -106,5 +106,5 @@
 		};
 	};
 
-	sceditor.plugins.autosave.clear = clear;
-}(sceditor));
+	kteditor.plugins.autosave.clear = clear;
+}(kteditor));
