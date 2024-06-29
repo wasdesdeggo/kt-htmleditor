@@ -5,7 +5,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['id'] = {
+	kteditor.locale['id'] = {
 		'Bold': 'Tebal',
 		'Italic': 'Miring',
 		'Underline': 'Garis Bawah',
