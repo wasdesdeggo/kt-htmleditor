@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['et'] = {
+	kteditor.locale['et'] = {
 		'Bold': 'Rasvane',
 		'Italic': 'Kaldkiri',
 		'Underline': 'Allajoonitud',
