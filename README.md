@@ -20,7 +20,7 @@
   
 ## Installation
 ```
-Go in releases and download 'kt-htmleditor-v1.0.0'
+Go in releases and download 'kt-htmleditor-v1.0.1'
 Once you've downloaded the files extract the folder so it's no longer a .zip file.
 ```
 ### 1. Using the html editor
