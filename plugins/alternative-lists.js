@@ -16,16 +16,16 @@
  * 
  */
 
-(function (sceditor) {
+(function (kteditor) {
 	'use strict';
 
-	var utils = sceditor.utils;
+	var utils = kteditor.utils;
 
 	function isFunction(fn) {
 		return typeof fn === 'function';
 	}
 
-	sceditor.plugins['alternative-lists'] = function () {
+	kteditoor.plugins['alternative-lists'] = function () {
 		var base = this;
 
 		/**
@@ -79,7 +79,7 @@
 				}
 			});
 
-			sceditor.formats.bbcode.set('ul', {
+			kteditor.formats.bbcode.set('ul', {
 				tags: {
 					ul: null
 				},
@@ -90,7 +90,7 @@
 				html: '<ul>{0}</ul>'
 			});
 
-			sceditor.formats.bbcode.set('ol', {
+			kteditor.formats.bbcode.set('ol', {
 				tags: {
 					ol: null
 				},
@@ -101,7 +101,7 @@
 				html: '<ol>{0}</ol>'
 			});
 
-			sceditor.formats.bbcode.set('li', {
+			kteditor.formats.bbcode.set('li', {
 				tags: {
 					li: null
 				},
@@ -111,7 +111,7 @@
 				html: '<li>{0}</li>'
 			});
 
-			sceditor.formats.bbcode.set('*', {
+			kteditor.formats.bbcode.set('*', {
 				isInline: false,
 				excludeClosing: true,
 				closedBy: ['/ul', '/ol', '/list', '*', 'li'],
@@ -154,4 +154,4 @@
 		};
 
 	};
-})(sceditor);
+})(kteditor);
