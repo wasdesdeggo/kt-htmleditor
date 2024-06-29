@@ -6,7 +6,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['nl'] = {
+	kteditor.locale['nl'] = {
 		'Bold': 'Vet',
 		'Italic': 'Cursief',
 		'Underline': 'Onderlijnd',
