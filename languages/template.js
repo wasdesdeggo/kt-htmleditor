@@ -6,7 +6,7 @@
 	'use strict';
 
 	// Replace <code> with the language code, e.g. no, fr, en, ect.
-	sceditor.locale['<code>'] = {
+	kteditor.locale['<code>'] = {
 
 		// Original string is on the left, place the translation between
 		// the quotes on the right
