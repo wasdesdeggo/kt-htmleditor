@@ -4,7 +4,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['el'] = {
+	kteditor.locale['el'] = {
 		'Bold': 'Έντονα',
 		'Italic': 'Πλάγια',
 		'Underline': 'Υπογραμμισμένα',
