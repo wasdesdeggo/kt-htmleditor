@@ -2,6 +2,19 @@
   Kt html editor
 </h1>
 
+## Features
+
+* Over 500 plugins in the [Add-ons Repository](https://ckeditor.com/cke4/addons).
+* Pasting from Microsoft Word, Excel, and Google Docs.
+* Drag&drop image uploads.
+* Media embeds to insert videos, tweets, maps, or slideshows.
+* Powerful clipboard integration.
+* Content quality control with Advanced Content Filter.
+* Extensible widget system.
+* Custom table selection.
+* Accessibility conforming to WCAG and Section 508.
+* Over 70 localizations available with full RTL support.
+
  
 <hr  style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;"  noshade=""  size="20"  width="100%">
   
@@ -30,7 +43,14 @@ and paste it inside the <body> element in your HTML document. If you did everyth
 If you dont know what your doing then go into 'documentation'
 ```
 <hr  style="border-radius: 2%; margin-top: 60px; margin-bottom: 60px;"  noshade=""  size="20"  width="100%">
-  
+
+## Browser support
+
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome (Android) | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>iOS Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Opera |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| IE8, IE9, IE10, IE11, Edge| latest version| latest version| latest version| latest version| latest version| latest version
+
+
 ## Contributing
 Contributions are a great way to keep the project active and up to date. Any contributions you make are **greatly appreciated**.
 
