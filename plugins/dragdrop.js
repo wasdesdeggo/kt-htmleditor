@@ -9,7 +9,7 @@
  *
  * 
  */
-(function (sceditor) {
+(function (kteditor) {
 	'use strict';
 
 	/**
@@ -66,7 +66,7 @@
 		}
 	}
 
-	sceditor.plugins.dragdrop = function () {
+	kteditor.plugins.dragdrop = function () {
 		if (!isSupported) {
 			return;
 		}
@@ -219,4 +219,4 @@
 			}
 		};
 	};
-})(sceditor);
+})(kteditor);
