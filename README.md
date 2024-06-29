@@ -22,7 +22,9 @@ know what they do click on 'documentation' to see the description of each config
 ```
 To edit the html you get the website link and put it in the 'edit' tab then paste it in and the html source code will pop up.
 
-You could also write an svg image into the HTML document if you want, SVG images can be written directly into the HTML document using the <svg> </svg> tag. To do this, open the SVG image in VS code or your preferred IDE, copy the code, and paste it inside the <body> element in your HTML document. If you did everything correctly, your webpage should be perfectly fine.
+You could also write an svg image into the HTML document if you want, SVG images can be written directly into the HTML document
+using the <svg> </svg> tag. To do this, open the SVG image in VS code or your preferred IDE, copy the code,
+and paste it inside the <body> element in your HTML document. If you did everything correctly, your webpage should be perfectly fine.
 
 If you dont know what your doing then go into 'documentation'
 ```
