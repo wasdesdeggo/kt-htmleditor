@@ -5,7 +5,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['nb-NO'] = {
+	kteditor.locale['nb-NO'] = {
 		'Bold': 'Fet',
 		'Italic': 'Kursiv',
 		'Underline': 'Understrek',
