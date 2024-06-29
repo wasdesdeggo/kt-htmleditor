@@ -4,7 +4,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['fa'] = {
+	kteditor.locale['fa'] = {
 		'Bold': 'تیره',
 		'Italic': 'مورب',
 		'Underline': 'زیرخط',
