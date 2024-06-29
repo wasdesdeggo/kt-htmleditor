@@ -4,7 +4,7 @@
 
 ## Features
 
-* Over 500 plugins in the [Add-ons Repository](https://ckeditor.com/cke4/addons).
+* Over 500 extra plugins in the Addons Tab
 * Pasting from Microsoft Word, Excel, and Google Docs.
 * Drag&drop image uploads.
 * Media embeds to insert videos, tweets, maps, or slideshows.
@@ -62,7 +62,7 @@ If you have a suggestion that would make this project better, you can simply ope
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
-## VERY IMPORTANT
+## ⚠️⚠️ VERY IMPORTANT ⚠️⚠️
 If you got a false positive, some image or custom data formats can cause false positives because they contain patterns indicating a potential XSS attack in HTML content. For example, an SVG file might contain a <script> tag. If you expect this type of content from legitimate users, narrowly tailor your XSS rules to allow HTML requests that include these other data formats.
 
 ## License
