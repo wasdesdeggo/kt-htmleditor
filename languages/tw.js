@@ -5,7 +5,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['tw'] = {
+	kteditor.locale['tw'] = {
 		'Bold': '粗體',
 		'Italic': '斜體',
 		'Underline': '底線',
