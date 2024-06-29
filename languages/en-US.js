@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['en-US'] = {
+	kteditor.locale['en-US'] = {
 		dateFormat: 'month/day/year'
 	};
 })();
