@@ -5,7 +5,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['vi'] = {
+	kteditor.locale['vi'] = {
 		'Bold': 'Đậm',
 		'Italic': 'Nghiêng',
 		'Underline': 'Gạch chân',
