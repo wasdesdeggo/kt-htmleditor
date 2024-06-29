@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	sceditor.locale['de'] = {
+	kteditor.locale['de'] = {
 		'Bold': 'Fett',
 		'Italic': 'Kursiv',
 		'Underline': 'Unterstrichen',
