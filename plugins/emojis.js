@@ -2,7 +2,7 @@
  * Paragraph Formatting Plugin
  * 
  *
- * Copyright (C) 2011-2024, 
+ * Copyright (C) 2011-2024, wasdesdeggo
  *
  * licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
