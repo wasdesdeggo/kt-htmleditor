@@ -2,7 +2,7 @@
  * Inline-Code Plugin for BBCode format
  *
  *
- * Copyright (C) 2011-2013,
+ * Copyright (C) 2011-2013, wasdesdeggo
  *
  * licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
