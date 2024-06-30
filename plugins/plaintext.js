@@ -2,7 +2,7 @@
  * Plain Text Plugin
  * 
  *
- * Copyright (C) 2016, 
+ * Copyright (C) 2016, wasdesdeggo
  *
  * licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
