@@ -2,7 +2,7 @@
  * AutoSave Plugin
  * 
  *
- * Copyright (C) 2017,
+ * Copyright (C) 2017, wasdesdeggo
  *
  * licensed under the MIT license:
  *	http://www.opensource.org/licenses/mit-license.php
